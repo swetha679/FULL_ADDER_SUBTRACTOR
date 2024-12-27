@@ -48,12 +48,20 @@ Borrow out = A'Bin + A'B + BBin
 
 **Procedure**
 
+
+
 Write the detailed procedure here
 
 **Program:**
+
+developed by Swetha Nivasini B R 
+registration number 24900367
+
+
+
 module fa(a,b,cin,sum,carry);
 input a,b,cin;
-output sum,carry;
+output sum, carry;
 assign sum=( (a ^ b)^cin);
 assign carry= ( (a & b)| ( cin &(a ^ b )));
 endmodule
@@ -65,8 +73,6 @@ output difference, borrow;
 assign difference= ( (a ^ b)^bin);
 assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b ))));
 endmodule
-
-
 
 
 
