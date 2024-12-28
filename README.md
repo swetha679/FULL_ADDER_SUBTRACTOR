@@ -44,6 +44,11 @@ Borrow out = A'Bin + A'B + BBin
 
 
 
+
+
+
+
+
 ![WhatsApp Image 2024-12-21 at 09 57 52_9f9bf009](https://github.com/user-attachments/assets/32d07900-7ea6-465c-85aa-765afd06e8e0)
 
 
@@ -53,7 +58,15 @@ Borrow out = A'Bin + A'B + BBin
 
 
 
+
+
+
+
+
 ![WhatsApp Image 2024-12-21 at 09 58 11_1ce1389e](https://github.com/user-attachments/assets/cff18d1a-bad8-4caf-8df4-0b7cf0dbfbe6)
+
+
+
 
 
 
@@ -73,6 +86,10 @@ Borrow out = A'Bin + A'B + BBin
 4. Create nodes for inputs and outputs to generate the timing diagram.
 
 5 . For different input combinations generate the timing diagram.
+
+
+
+
 
 
 **Program:**
@@ -116,6 +133,11 @@ assign difference= ( (a ^ b)^bin);
 assign borrow= ((~a&b)|(bin&(~(a^b))));
 
 endmodule
+
+
+
+
+
 
 
 
