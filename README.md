@@ -43,15 +43,7 @@ Borrow out = A'Bin + A'B + BBin
 **Truthtable**
 
 
-
-
-
 full adder
-
-
-
-
-
 
 
 ![WhatsApp Image 2024-12-21 at 09 57 52_9f9bf009](https://github.com/user-attachments/assets/32d07900-7ea6-465c-85aa-765afd06e8e0)
@@ -154,9 +146,6 @@ endmodule
 
 
 f1
-
-
-
 
 
 ![image](https://github.com/user-attachments/assets/a604a058-38d8-4d16-935d-2d8bd2655eb3)
