@@ -52,6 +52,7 @@ Borrow out = A'Bin + A'B + BBin
 
 
 
+
 ![WhatsApp Image 2024-12-21 at 09 58 11_1ce1389e](https://github.com/user-attachments/assets/cff18d1a-bad8-4caf-8df4-0b7cf0dbfbe6)
 
 
@@ -101,7 +102,7 @@ module fs(a,b,bin,difference,borrow);
 input a,b, bin;
 output difference, borrow;
 assign difference= ( (a ^ b)^bin);
-assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b ))));
+assign borrow= ((~a&b)|(bin&(~(a^b))));
 
 endmodule
 
@@ -122,6 +123,9 @@ endmodule
 
 
 
+
+
+
 ![image](https://github.com/user-attachments/assets/9d2bcb0e-7391-4f50-969b-867768bd9348)
 
 
@@ -130,7 +134,12 @@ endmodule
 
 
 
+
+
+
 **output**
+
+
 
 
 
