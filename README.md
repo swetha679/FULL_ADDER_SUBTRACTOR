@@ -39,9 +39,14 @@ Borrow out = A'Bin + A'B + BBin
 
 
 
+
 **Truthtable**
 
 
+
+
+
+full adder
 
 
 
@@ -57,6 +62,9 @@ Borrow out = A'Bin + A'B + BBin
 
 
 
+
+
+full subtractor
 
 
 
@@ -145,6 +153,9 @@ endmodule
 
 
 
+f1
+
+
 
 
 
@@ -152,6 +163,10 @@ endmodule
 
 
 
+
+
+
+f2
 
 
 
@@ -174,11 +189,19 @@ endmodule
 
 
 
+f1
+
+
+
 
 
 
 ![Screenshot (120)](https://github.com/user-attachments/assets/78a2b5c4-eb6e-4c6e-8205-248342b9531d)
 
+
+
+
+f2
 
 
 
