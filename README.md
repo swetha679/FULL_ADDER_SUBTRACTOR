@@ -63,9 +63,16 @@ Borrow out = A'Bin + A'B + BBin
 
 **Procedure**
 
+1. Type the program in Quartus software.
 
+2 . Compile and run the program.
 
-Write the detailed procedure here
+3  . Generate the RTL schematic and save the logic diagram.
+
+4. Create nodes for inputs and outputs to generate the timing diagram.
+
+5 . For different input combinations generate the timing diagram.
+
 
 **Program:**
 
@@ -137,7 +144,8 @@ endmodule
 
 
 
-![image](https://github.com/user-attachments/assets/93ed2342-79c6-4d81-9e97-dc571369c6ea)
+![Screenshot (121)](https://github.com/user-attachments/assets/5be1c823-09be-4f8f-871b-c97f46710dac)
+
 
 
 
