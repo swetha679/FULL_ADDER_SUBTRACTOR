@@ -102,6 +102,9 @@ assign carry= ( (a & b)| ( cin &(a ^ b )));
 endmodule
 
 
+
+
+
 module fs(a,b,bin,difference,borrow);
 
 input a,b, bin;
