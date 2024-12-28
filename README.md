@@ -92,16 +92,24 @@ registration number 24900367
 
 module fa(a,b,cin,sum,carry);
 input a,b,cin;
+
 output sum, carry;
+
 assign sum=( (a ^ b)^cin);
+
 assign carry= ( (a & b)| ( cin &(a ^ b )));
+
 endmodule
 
 
 module fs(a,b,bin,difference,borrow);
+
 input a,b, bin;
+
 output difference, borrow;
+
 assign difference= ( (a ^ b)^bin);
+
 assign borrow= ((~a&b)|(bin&(~(a^b))));
 
 endmodule
