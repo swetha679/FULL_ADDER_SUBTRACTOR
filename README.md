@@ -107,7 +107,8 @@ registration number 24900367
 
 
 
-module fa(a,b,cin,sum,carry);
+```module fa(a,b,cin,sum,carry);
+
 input a,b,cin;
 
 output sum, carry;
@@ -117,12 +118,13 @@ assign sum=( (a ^ b)^cin);
 assign carry= ( (a & b)| ( cin &(a ^ b )));
 
 endmodule
+```
 
 
 
 
 
-module fs(a,b,bin,difference,borrow);
+```module fs(a,b,bin,difference,borrow);
 
 input a,b, bin;
 
@@ -133,6 +135,7 @@ assign difference= ( (a ^ b)^bin);
 assign borrow= ((~a&b)|(bin&(~(a^b))));
 
 endmodule
+```
 
 
 
@@ -145,17 +148,11 @@ endmodule
 
 
 
-f1
-
-
-![image](https://github.com/user-attachments/assets/a604a058-38d8-4d16-935d-2d8bd2655eb3)
+FULL ADDER
 
 
 
-
-
-
-f2
+![Screenshot (55)](https://github.com/user-attachments/assets/bf6d695d-7a27-423e-9007-dd5d2b881db1)
 
 
 
@@ -163,7 +160,16 @@ f2
 
 
 
-![image](https://github.com/user-attachments/assets/9d2bcb0e-7391-4f50-969b-867768bd9348)
+FULL SUBTRACTOR
+
+
+
+
+
+
+
+![Screenshot (75)](https://github.com/user-attachments/assets/0b348268-82e8-48e8-bd1e-59912be0da42)
+
 
 
 
@@ -178,27 +184,29 @@ f2
 
 
 
-f1
+
+FULL ADDER
+
+
+
+
+
+![Screenshot (135)](https://github.com/user-attachments/assets/5053893b-a274-407d-af01-f82635224468)
+
+
+
+
+
+FULL SUBTRACTOR
 
 
 
 
 
 
-![Screenshot (120)](https://github.com/user-attachments/assets/78a2b5c4-eb6e-4c6e-8205-248342b9531d)
 
+![Screenshot (136)](https://github.com/user-attachments/assets/6ad0536e-057c-47e4-bf2d-90b1307ef516)
 
-
-
-f2
-
-
-
-
-
-
-
-![Screenshot (121)](https://github.com/user-attachments/assets/5be1c823-09be-4f8f-871b-c97f46710dac)
 
 
 
