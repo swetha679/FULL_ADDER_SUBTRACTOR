@@ -105,7 +105,7 @@ developed by Swetha Nivasini B R
 
 registration number 24900367
 
-
+FULL ADDER
 
 ```module fa(a,b,cin,sum,carry);
 
@@ -121,7 +121,7 @@ endmodule
 ```
 
 
-
+FULL SUBTRACTOR
 
 
 ```module fs(a,b,bin,difference,borrow);
