@@ -107,7 +107,8 @@ registration number 24900367
 
 FULL ADDER
 
-```module fa(a,b,cin,sum,carry);
+```
+module fa(a,b,cin,sum,carry);
 
 input a,b,cin;
 
@@ -124,7 +125,8 @@ endmodule
 FULL SUBTRACTOR
 
 
-```module fs(a,b,bin,difference,borrow);
+```
+module fs(a,b,bin,difference,borrow);
 
 input a,b, bin;
 
